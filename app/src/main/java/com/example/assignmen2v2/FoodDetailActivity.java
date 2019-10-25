@@ -40,7 +40,7 @@ public class FoodDetailActivity extends AppCompatActivity {
 
         foodNameTV.setText(food.getFoodName());
         foodDescTV.setText(food.getFoodDesc());
-        foodPriceTV.setText("     " +String.valueOf(food.getFoodPrice()));
+        foodPriceTV.setText(String.valueOf(food.getFoodPrice()));
         quantityTV.setText(String.valueOf(originalQuantity));
         foodPhotoIV.setImageResource(food.getImageDrawableID());
 
